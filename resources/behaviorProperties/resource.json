@@ -1,0 +1,120 @@
+{
+  "behaviors": {
+    "ShipBehavior": {
+      "scriptId": "2",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "index",
+          "type": "number"
+        },
+        {
+          "name": "angle",
+          "type": "number"
+        },
+        {
+          "name": "angularVelocity",
+          "type": "number"
+        },
+        {
+          "name": "spawnPosition",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "velocity",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "shootCooldown",
+          "type": "number"
+        },
+        {
+          "name": "respawnTimer",
+          "type": "number"
+        },
+        {
+          "name": "invicibilityTimer",
+          "type": "number"
+        }
+      ]
+    },
+    "ScrollBehavior": {
+      "scriptId": "5",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "y",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "MissileBehavior": {
+      "scriptId": "12",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "velocity",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "AsteroidBehavior": {
+      "scriptId": "13",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "velocity",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "size",
+          "type": "number"
+        }
+      ]
+    },
+    "GameManagerBehavior": {
+      "scriptId": "17",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnCooldown",
+          "type": "number"
+        },
+        {
+          "name": "timer",
+          "type": "number"
+        }
+      ]
+    },
+    "MainMenuBehavior": {
+      "scriptId": "26",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "buttonIndex",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}

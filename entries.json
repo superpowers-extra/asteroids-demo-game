@@ -1,0 +1,144 @@
+[
+  {
+    "id": "25",
+    "name": "Main Menu",
+    "type": null,
+    "children": [
+      {
+        "id": "24",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "26",
+        "name": "Main Menu Behavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Game Scene",
+    "type": "scene"
+  },
+  {
+    "id": "17",
+    "name": "Game Manager Behavior",
+    "type": "script"
+  },
+  {
+    "id": "18",
+    "name": "Font",
+    "type": "font"
+  },
+  {
+    "id": "6",
+    "name": "Background",
+    "type": null,
+    "children": [
+      {
+        "id": "5",
+        "name": "Scroll Behavior",
+        "type": "script"
+      },
+      {
+        "id": "4",
+        "name": "Sprite",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Ship",
+    "type": null,
+    "children": [
+      {
+        "id": "19",
+        "name": "Prefab",
+        "type": "scene"
+      },
+      {
+        "id": "2",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "0",
+        "name": "Ship 1",
+        "type": "model"
+      },
+      {
+        "id": "8",
+        "name": "Missile",
+        "type": null,
+        "children": [
+          {
+            "id": "9",
+            "name": "Prefab",
+            "type": "scene"
+          },
+          {
+            "id": "12",
+            "name": "Behavior",
+            "type": "script"
+          },
+          {
+            "id": "7",
+            "name": "Model",
+            "type": "model"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Asteroid",
+    "type": null,
+    "children": [
+      {
+        "id": "14",
+        "name": "Prefab",
+        "type": "scene"
+      },
+      {
+        "id": "13",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "11",
+        "name": "Model",
+        "type": "model"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Sounds",
+    "type": null,
+    "children": [
+      {
+        "id": "21",
+        "name": "Shoot",
+        "type": "sound"
+      },
+      {
+        "id": "22",
+        "name": "Asteroid Hit",
+        "type": "sound"
+      },
+      {
+        "id": "23",
+        "name": "Ship Hit",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Game",
+    "type": "script"
+  }
+]
